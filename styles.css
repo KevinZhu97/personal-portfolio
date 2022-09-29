@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.hero-description {
+
+}
+
+.my-journey {
+    display: flex;
+    justify-content: center;
+}
+
+.journey-box {
+    width: 60%;
+}
+
+.profile-picture {
+    display: block;
+    width: 20%;
+}
+
+.my-work {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.project-showcase {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white; 
+    padding: 1rem;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contact-icon {
+    height: 2rem;
+}
+
+@media (min-width: 800px) {
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-showcase {
+        height: 20rem;
+    }
+  }
