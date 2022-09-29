@@ -4,6 +4,10 @@ body {
     justify-content: center;
 }
 
+html {
+    font-family:'Roboto', Arial, sans-serif;
+}
+
 h3 {
     display: flex;
     justify-content: center;
